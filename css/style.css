@@ -90,6 +90,7 @@ img{
     background-color:#1E90FF;
     border: 0;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .button:hover{
@@ -220,14 +221,15 @@ img{
 
 .latest-videos-item-info-link:hover{
     opacity: 0.8;
+    color: #1E90FF;
 }
 
 .latest-videos-item-info-link:active{
     opacity: 0.6;
 }
 
-.latest-videos-item-info-meta:not(:last-child) {
-}
+/* .latest-videos-item-info-meta:not(:last-child) {
+} */
 
 .latest-videos-item-info-publishad-date {
     margin-right: 24px;
